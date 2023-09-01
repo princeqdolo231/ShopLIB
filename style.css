@@ -5,10 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#Container {
-    background-color: lightgrey;
-}
-
 
 /*
     Header of the Page (Page Name and Navigation Menu)
@@ -22,7 +18,6 @@ header {
     color: white;
     padding: 1rem;
     font-size: 1.45rem;
-    /* border: 3px solid pink; */
 }
 
 nav>a {
@@ -38,7 +33,7 @@ nav>a {
 
 #Image-Slider {
     position: relative;
-    opacity: .9;
+    margin-bottom: 2rem;
 }
 
 #Image-Slider>img {
@@ -67,23 +62,17 @@ nav>a {
 #Explore-Products {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid blue; */
-    padding: 1rem 0;
 }
 
 #Explore-Products-Heading-Section {
     text-align: center;
-    /* border: 3px solid pink; */
-    background-color: white;
     padding: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #Explore-Products-Cards-Section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* border: 3px solid blue; */
     background-color: white;
     padding: 1rem;
     align-items: center;
@@ -91,7 +80,6 @@ nav>a {
 
 .Card-Img {
     width: 300px;
-    /* border: 3px solid pink; */
 }
 
 .Products-Card-Description {
@@ -107,14 +95,12 @@ nav>a {
 */
 
 #Testimony-Section {
-    padding: 1rem 0;
+    padding: 1rem 0 2rem 0;
     display: flex;
     flex-direction: column;
-    /* border: 3px solid blue; */
 }
 
 #Testimony-Heading {
-    /* border: 3px solid pink; */
     text-align: center;
     background-color: white;
     padding: 1rem;
@@ -125,23 +111,19 @@ nav>a {
     padding: 1rem;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* border: 3px solid pink; */
     background-color: white;
     gap: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), ;
 }
 
 .TESTIFIER-ARTICLE {
-    /* border: 3px solid pink; */
     width: 100%;
     height: 50%;
-    /* overflow: scroll; */
 }
 
 .Testimony-Card-1 {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid pink; */
     padding: 1rem 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -153,7 +135,6 @@ nav>a {
 .Testimony-Card-2 {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid pink; */
     padding: 1rem 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -161,13 +142,11 @@ nav>a {
 .Testimony-Card-3 {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid pink; */
     padding: 1rem 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Testimony-Information {
-    /* border: 3px solid pink; */
     display: flex;
     padding-top: .7rem;
     align-items: center;
@@ -175,12 +154,10 @@ nav>a {
 
 .Testimony-Img {
     width: 70px;
-    /* border: 3px solid pink; */
     border-radius: 50%;
 }
 
 .TESTIFIER-DESCRIPTION {
-    /* border: 3px solid pink; */
     width: 80%;
     margin: 1rem;
 }
